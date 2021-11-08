@@ -18,7 +18,7 @@ else
     }
     else if(age > 65)
     {
-        price = (kmPrice * 20 / 100) - kmPrice;
+        price = (kmPrice * 40 / 100) - kmPrice;
     }
     else
     {
