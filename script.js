@@ -6,6 +6,7 @@ let age = parseInt(prompt('Inserisci la tua età'));
 let kmPrice = km * 0.21;
 
 // calcolo sconti
+let price;
 if(isNaN(age) || isNaN(km))
 {
     alert('Errore inserimento dati, ricaricare la pagina.')
